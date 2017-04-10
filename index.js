@@ -296,6 +296,13 @@ Sketchy.shapeContextMatch = function (shape1, shape2, convertToPoints = true, ac
   // let result = Sketchy.hungarian(costMatrix, false, true) / pointsPerShape;
   let result = munkres(costMatrix) / pointsPerShape; // Rely on maintained dependency
 
+  // Make it into single value
+  let sum = 0;
+  for (let i = 0; i < result.length; i++) {
+    sum += costMatrix[result[i][0]][result[i][1]];
+  }
+  result = sum / pointsPerShape;
+
   // Convert total error to a percentage Modify the constant below (originally
   // 0.175) to modify how sensitive this function is to error.  Higher numbers
   // make it more forgiving.
