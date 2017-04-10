@@ -1,6 +1,6 @@
 {
   "name": "moresketchy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A linted fork of Sketchy.js, with minor optimizations",
   "main": "index.js",
   "scripts": {
