@@ -294,7 +294,7 @@ Sketchy.shapeContextMatch = function (shape1, shape2, convertToPoints = true, ac
 
   // Normalize total cost by the number of points per shape.
   // let result = Sketchy.hungarian(costMatrix, false, true) / pointsPerShape;
-  let result = munkres(costMatrix) / pointsPerShape; // Rely on maintained dependency
+  let result = munkres(costMatrix); // Rely on maintained dependency
 
   // Make it into single value
   let sum = 0;
