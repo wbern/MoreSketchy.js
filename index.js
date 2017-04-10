@@ -1,7 +1,8 @@
 /* eslint-disable no-param-reassign, no-unused-vars */
 const munkres = require('munkres-js');
 
-// ////////////////////////////////////////              Sketchy.js //
+// ////////////////////////////////////////
+//              Sketchy.js
 // ////////////////////////////////////////
 //
 // JavaScript Shape Matching Works best with Raphael SketchPad Development

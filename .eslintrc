@@ -1,6 +1,7 @@
 {
   "rules": {
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "semi": "off"
   },
   "extends": "standard"
 }
