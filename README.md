@@ -1,5 +1,7 @@
-Sketchy.js
+MoreSketchy.js
 ==========
+
+** This is a fork of Sketchy.js to do some modern js linting (eslint) and replacing the hungarian calculation with a more modern npm package that is better maintained (munkres-js). I am leaving the rest as-is in below README.MD by the original author **
 
 Shape matching for mere mortals.
 
