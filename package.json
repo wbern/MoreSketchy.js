@@ -1,0 +1,27 @@
+{
+  "name": "moresketchy",
+  "version": "1.0.0",
+  "description": "A linted fork of Sketchy.js, with minor optimizations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sketchy",
+    "shapecompare",
+    "compare",
+    "shapes",
+    "2d",
+    "hungarian",
+    "munkres"
+  ],
+  "author": "William Bernting",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
