@@ -1,7 +1,9 @@
 MoreSketchy.js
 ==========
 
-**This is a fork of Sketchy.js to do some modern js linting (eslint) and replacing the hungarian calculation with a more modern npm package that is better maintained (munkres-js). I am leaving the rest as-is in below README.MD by the original author. I am also not maintaining the test or demo stuff in this package, because they are intertwined with Raphael Sketchpad which I am not actively using. If you want to see how this library is used in my case, look at https://github.com/kits-ab/gakusei**
+**This is a fork of Sketchy.js to do some modern js linting (eslint) and replacing the hungarian calculation with a more modern npm package that is better maintained (munkres-js). I am leaving the rest as-is in below README.MD by the original author. I am also not maintaining the test or demo stuff in this package, because they are intertwined with Raphael Sketchpad which I am not actively using. If you want to see how this library is used in my case, look at https://github.com/kits-ab/gakusei
+
+If you want to build this project yourself, you'll need npm, and perform npm install / npm run compile to compile it to dist/ (it's very easy)**
 
 Shape matching for mere mortals.
 

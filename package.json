@@ -1,10 +1,10 @@
 {
   "name": "moresketchy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A linted fork of Sketchy.js, with minor optimizations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "webpack"
   },
   "keywords": [
     "sketchy",
@@ -18,12 +18,17 @@
   "author": "William Bernting",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "webpack": "^2.3.3"
   },
   "dependencies": {
     "munkres-js": "^1.2.2"
