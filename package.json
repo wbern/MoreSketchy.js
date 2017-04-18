@@ -1,8 +1,8 @@
 {
   "name": "moresketchy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A linted fork of Sketchy.js, with minor optimizations",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "webpack"
   },
